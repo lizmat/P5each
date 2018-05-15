@@ -1,5 +1,6 @@
 use v6.c;
-unit module P5each:ver<0.0.3>;
+
+unit module P5each:ver<0.0.4>:auth<cpan:ELIZABETH>;
 
 proto sub each(|) is export {*}
 multi sub each(%hash is raw) {
