@@ -1,6 +1,8 @@
 Revision history for P5each
 
 {{$NEXT}}
+
+0.0.5  2018-05-20T00:13:25+02:00
     - Added original Perl 5 documentation
 
 0.0.4  2018-05-15T19:49:04+02:00
