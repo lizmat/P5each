@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module P5each:ver<0.0.5>:auth<cpan:ELIZABETH>;
+unit module P5each:ver<0.0.6>:auth<cpan:ELIZABETH>;
 
 proto sub each(|) is export {*}
 multi sub each(%hash is raw) {
@@ -37,7 +37,7 @@ multi sub each(@array is raw) {
 
 =head1 NAME
 
-P5each - Implement Perl 5's each() built-in
+P5each - Implement Perl's each() built-in
 
 =head1 SYNOPSIS
 
@@ -45,7 +45,7 @@ P5each - Implement Perl 5's each() built-in
 
 =head1 DESCRIPTION
 
-This module tries to mimic the behaviour of the C<each> function of Perl 5
+This module tries to mimic the behaviour of the C<each> function of Perl
 as closely as possible.
 
 =head1 ORIGINAL PERL 5 DOCUMENTATION
@@ -133,7 +133,7 @@ will happen anyway even if an empty list is returned, so that this:
 
     while (($key, $value) = each %hash) { }
 
-will loop forever.  There is unfortunately no way to fix this in Perl 6 module
+will loop forever.  There is unfortunately no way to fix this in Raku module
 space at the moment.  But a slightly different syntax, will work as expected:
 
     while each(%hash) -> ($key,$value) { }
@@ -150,9 +150,9 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

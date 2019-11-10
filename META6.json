@@ -5,7 +5,7 @@
   ],
   "build-depends" : [ ],
   "depends" : [ ],
-  "description" : "Implement Perl 5's each() built-in",
+  "description" : "Implement Perl's each() built-in",
   "license" : "Artistic-2.0",
   "name" : "P5each",
   "perl" : "6.c",
@@ -19,5 +19,5 @@
     "CPAN5"
   ],
   "test-depends" : [ ],
-  "version" : "0.0.5"
+  "version" : "0.0.6"
 }
