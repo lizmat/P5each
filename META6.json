@@ -1,23 +1,27 @@
 {
-  "auth" : "cpan:ELIZABETH",
-  "authors" : [
+  "auth": "cpan:ELIZABETH",
+  "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "description" : "Implement Perl's each() built-in",
-  "license" : "Artistic-2.0",
-  "name" : "P5each",
-  "perl" : "6.c",
-  "provides" : {
-    "P5each" : "lib/P5each.pm6"
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Raku port of Perl's each() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5each",
+  "perl": "6.c",
+  "provides": {
+    "P5each": "lib/P5each.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/lizmat/P5each.git",
-  "tags" : [
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/P5each.git",
+  "tags": [
     "PERL5",
     "CPAN5"
   ],
-  "test-depends" : [ ],
-  "version" : "0.0.6"
+  "test-depends": [
+  ],
+  "version": "0.0.7"
 }

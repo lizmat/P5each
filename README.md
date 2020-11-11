@@ -1,7 +1,7 @@
 NAME
 ====
 
-P5each - Implement Perl's each() built-in
+Raku port of Perl's each() built-in
 
 SYNOPSIS
 ========
@@ -11,7 +11,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module tries to mimic the behaviour of the `each` function of Perl as closely as possible.
+This module tries to mimic the behaviour of the Perl's `each` built-in as closely as possible in the Raku Programming Language.
 
 ORIGINAL PERL 5 DOCUMENTATION
 =============================
@@ -115,7 +115,7 @@ Source can be located at: https://github.com/lizmat/P5each . Comments and Pull R
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

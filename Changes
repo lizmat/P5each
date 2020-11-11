@@ -2,6 +2,11 @@ Revision history for P5each
 
 {{$NEXT}}
 
+0.0.7  2020-11-11T19:32:47+01:00
+    - Change name of distribution
+    - Force to highest possible Raku version
+    - Update copyright year
+
 0.0.6  2019-11-10T13:53:27+01:00
     - changed Perl 6 to Raku, and Perl 5 to Perl
 

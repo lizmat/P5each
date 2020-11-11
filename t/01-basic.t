@@ -1,4 +1,4 @@
-use v6.c;
+use v6.d;
 use Test;
 use P5each;
 
@@ -35,4 +35,4 @@ is +%h, +@values, 'did we get the same number of values for hash';
 is @keys.sort,   "a b c d e", 'did we get the right keys for hash';
 is @values.sort, "1 2 3 4 5", 'did we get the right values for hash';
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

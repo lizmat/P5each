@@ -1,6 +1,6 @@
-use v6.c;
+use v6.d;
 
-unit module P5each:ver<0.0.6>:auth<cpan:ELIZABETH>;
+unit module P5each:ver<0.0.7>:auth<cpan:ELIZABETH>;
 
 proto sub each(|) is export {*}
 multi sub each(%hash is raw) {
@@ -37,7 +37,7 @@ multi sub each(@array is raw) {
 
 =head1 NAME
 
-P5each - Implement Perl's each() built-in
+Raku port of Perl's each() built-in
 
 =head1 SYNOPSIS
 
@@ -45,8 +45,8 @@ P5each - Implement Perl's each() built-in
 
 =head1 DESCRIPTION
 
-This module tries to mimic the behaviour of the C<each> function of Perl
-as closely as possible.
+This module tries to mimic the behaviour of the Perl's C<each> built-in
+as closely as possible in the Raku Programming Language.
 
 =head1 ORIGINAL PERL 5 DOCUMENTATION
 
@@ -150,10 +150,12 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
+
+# vim: expandtab shiftwidth=4
