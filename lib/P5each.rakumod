@@ -1,6 +1,6 @@
-use v6.d;
+use v6.*;
 
-unit module P5each:ver<0.0.7>:auth<cpan:ELIZABETH>;
+unit module P5each:ver<0.0.8>:auth<zef:lizmat>;
 
 proto sub each(|) is export {*}
 multi sub each(%hash is raw) {
@@ -143,14 +143,14 @@ define C<$key> and C<$value> outside of the `while` loop to make this work.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/P5each . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
